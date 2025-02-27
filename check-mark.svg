@@ -1,0 +1,7 @@
+<svg height="128" width="128" xmlns="http://www.w3.org/2000/svg">
+    <path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" fill="none" 
+        d="M 24 64
+        q 25 30 30 50
+        q 0 -40 50 -100
+    "/>
+</svg>

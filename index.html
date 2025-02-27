@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get it done</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>To Do List</h1>
+    <ul id="todo-list"></ul>
+    <button id="add-button">+</button>
+
+    <div id="add-todo-menu" class="hidden">
+        <span id="close" style="font-size: 30px;">&times;</span>
+        <div id="todo-details">
+            <h2>Add Task</h2> <br>
+            <div id="todo-info">
+                <label for="todo-title">To do:</label>
+                <input type="text" id="todo-title"> <br>
+                <label for="todo-deadline">Deadline:</label>
+                <input type="date" id="todo-deadline">
+            </div> <br>
+            <button id="add-todo-button">Add to do</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
